@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gitce</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_inicio">Gitce</string>
+    <string name="menu_miembros">Miembros</string>
+    <string name="menu_proyectos">Proyectos</string>
+    <string name="menu_publicaciones">Publicaciones</string>
+    <string name="menu_noticias">Noticias</string>
+    <string name="menu_salir">Salir</string>
+    <string name="Oespecifico">Fomentar la investigación en los alumnos de la Universidad Tecnológica de Panamá, Sede Regional de Chiriquí. Organizar cursos, conferencias, seminarios o cualquier otra actividad que coadyuve al logro de los objetivos propuestos. Implementar convenios de Investigación, Desarrollo e Innovación (I+D+i) con Instituciones y Empresas. Planificar, desarrollar e implementar proyectos de investigación y/o desarrollo con otras universidades, centro de investigación o instituciones.</string>
+    <string name="Ogeneral">Promover, apoyar y divulgar la investigación en las áreas de tecnologías computacionales emergentes con el objeto de contribuir al desarrollo de la ciencia y la tecnología de la Universidad Tecnológica de Panamá, tanto a nivel de pregrado como postgrado; estableciendo lazos de cooperación inter-institucional."</string>
+</resources>

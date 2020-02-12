@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_miembros"
+            android:icon="@drawable/ic_miembros"
+            android:title="@string/menu_miembros" />
+        <item
+            android:id="@+id/nav_proyectos"
+            android:icon="@drawable/ic_proyectos"
+            android:title="@string/menu_proyectos" />
+        <item
+            android:id="@+id/nav_publicaciones"
+            android:icon="@drawable/ic_publicaciones"
+            android:title="@string/menu_publicaciones" />
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/ic_noticias"
+            android:title="@string/menu_noticias" />
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_salir"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>
