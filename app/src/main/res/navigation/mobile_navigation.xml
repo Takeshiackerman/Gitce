@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/nav_inicio"
-        android:name="com.example.gitce.ui.inicio.InicioFragment"
+        android:name="com.example.gitce.InicioFragment"
         android:label="@string/menu_inicio"
         tools:layout="@layout/fragment_inicio" />
 
     <fragment
         android:id="@+id/nav_miembros"
-        android:name="com.example.gitce.ui.miembros.MiembrosFragment"
+        android:name="com.example.gitce.MiembrosFragment"
         android:label="@string/menu_miembros"
         tools:layout="@layout/fragment_miembros" />
 
     <fragment
         android:id="@+id/nav_noticias"
-        android:name="com.example.gitce.ui.noticias.NoticiasFragment"
+        android:name="com.example.gitce.NoticiasFragment"
         android:label="@string/menu_noticias"
         tools:layout="@layout/fragment_noticias" />
 
     <fragment
         android:id="@+id/nav_proyectos"
-        android:name="com.example.gitce.ui.proyectos.ProyectosFragment"
+        android:name="com.example.gitce.ProyectosFragment"
         android:label="@string/menu_proyectos"
         tools:layout="@layout/fragment_proyectos" />
 
     <fragment
         android:id="@+id/nav_publicaciones"
-        android:name="com.example.gitce.ui.publicaciones.PublicacionesFragment"
+        android:name="com.example.gitce.PublicacionesFragment"
         android:label="@string/menu_publicaciones"
         tools:layout="@layout/fragment_publicaciones" />
 </navigation>

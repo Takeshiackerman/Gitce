@@ -1,4 +1,4 @@
-package com.example.gitce.ui.miembros;
+package com.example.gitce;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,15 +14,12 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.gitce.R;
 
-public class MiembrosFragment extends Fragment {
-
-    private MiembrosViewModel miembrosViewModel;
+public class ProyectosFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        miembrosViewModel =
-                ViewModelProviders.of(this).get(MiembrosViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_miembros, container, false);
+
+        View root = inflater.inflate(R.layout.fragment_proyectos, container, false);
         return root;
     }
 }

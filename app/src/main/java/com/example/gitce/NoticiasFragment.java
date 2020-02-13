@@ -1,4 +1,4 @@
-package com.example.gitce.ui.publicaciones;
+package com.example.gitce;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,15 +14,13 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.gitce.R;
 
-public class PublicacionesFragment extends Fragment {
+public class NoticiasFragment extends Fragment {
 
-    private PublicacionesViewModel publicacionesViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        publicacionesViewModel =
-                ViewModelProviders.of(this).get(PublicacionesViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_publicaciones, container, false);
+
+        View root = inflater.inflate(R.layout.fragment_noticias, container, false);
         return root;
     }
 }

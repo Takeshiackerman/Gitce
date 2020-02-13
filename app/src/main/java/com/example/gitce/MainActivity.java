@@ -59,14 +59,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 || super.onSupportNavigateUp();
     }
 
-    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem){
-        switch (menuItem.getItemId()){
-            case R.id.salir:
-                finish();
-                System.exit(0);
-                break;
-        }
-        return true;
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        return false;
     }
-
 }
