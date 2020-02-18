@@ -20,6 +20,15 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/activity_main_drawer">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_gravity="right|bottom"
+            android:backgroundTint="#03A9F4"
+            android:src="@drawable/ic_salir"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>

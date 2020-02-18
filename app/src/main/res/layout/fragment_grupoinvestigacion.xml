@@ -1,23 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.GrupoinvestigacionFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="192dp"
+        android:id="@+id/textView5"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="89dp"
-        android:layout_marginTop="127dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="284dp"
-        android:textSize="30dp"
-        android:text="AQUI EESTA GRUPO INVESTIGACION"/>
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="501dp"
+        android:text="Bienvenidos"
+        android:textSize="30dp" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="387dp"
+        android:text="@string/Bienvenidos"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/lilia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="284dp"
+        android:src="@drawable/lilia" />
+
+    <ImageView
+        android:id="@+id/baltazar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="143dp"
+        android:src="@drawable/baltazar" />
+
+    <ImageView
+        android:id="@+id/valdimir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/vladi" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="59dp"
+        android:gravity="center"
+        android:layout_marginBottom="295dp"
+        android:text="Dra. Lilia Muñoz A. Doctora en Aplicaciones de la Informática  lilia.muñoz@utp.ac.pa" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:text="Licdo. Baltazar Aparicio, M.Sc. Maestría en Tecnología y Sistema de Información Empresarial  baltazar.aparicio@utp.ac.pa" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="207dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="Dr. Vladimir Villarreal C. Doctor en Tecnologías Informáticas Avanzadas  vladimir.villarreal@utp.ac.pa" />
 </RelativeLayout>
