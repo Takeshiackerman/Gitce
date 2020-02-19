@@ -15,8 +15,22 @@
     <string name="Oespecifico">Fomentar la investigación en los alumnos de la Universidad Tecnológica de Panamá, Sede Regional de Chiriquí. Organizar cursos, conferencias, seminarios o cualquier otra actividad que coadyuve al logro de los objetivos propuestos. Implementar convenios de Investigación, Desarrollo e Innovación (I+D+i) con Instituciones y Empresas. Planificar, desarrollar e implementar proyectos de investigación y/o desarrollo con otras universidades, centro de investigación o instituciones.</string>
     <string name="Ogeneral">Promover, apoyar y divulgar la investigación en las áreas de tecnologías computacionales emergentes con el objeto de contribuir al desarrollo de la ciencia y la tecnología de la Universidad Tecnológica de Panamá, tanto a nivel de pregrado como postgrado; estableciendo lazos de cooperación inter-institucional."</string>
     <string name="Bienvenidos">El Grupo de Investigación de Tecnologías Computacionales Emergentes cuenta con docentes e investigadores calificados para dirigir proyectos con resultados de calidad.</string>
-
-
+    <string name="vision">Desarrollar investigación aplicada utilizando de tecnologías de información y comunicación emergentes para dar respuesta a problemas.</string>
+    <string name="mision">Propiciar la investigación con una cultura de trabajo en equipo para potenciar la generación de conocimiento. Lograr una participación proactiva directa y permanente de sus integrantes del grupo con la comunidad universitaria y empresarial, desarrollando proyectos que eleven sus conocimientos mediante el descubrimiento y la identificación de sus habilidades.</string>
+    <string name="metas">Involucrar a cada miembro en una línea de investigación.
+Involucrar a nuevos miembros ya sea en un línea existente o la implementación de nuevas líneas.
+Presentar avances de investigaciones en proceso de selección, ejecución y finalización anualmente a la Coordinación de Investigación del Centro.
+Involucrar estudiantes, ya sea nivel de pregrado, postgrado y doctorado en tesis dentro de las líneas de investigación.
+Participar en congresos nacionales e internacionales a través de la presentación de posters, ponencia o algún artículo de interés.
+Participar en convocatorias nacionales e internacionales para el desarrollo de nuevos proyectos de investigación centradas en las líneas de investigación que desarrolla el grupo.
+Formar nuevas redes temáticas por línea de investigación que fortalezcan la relación del grupo con otros grupos de investigación nacionales e internacionales.</string>
     <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="intro">Este grupo está formado por investigadores de diferentes áreas o líneas de investigación, lo que favorece el desarrollo de proyectos y actividades multidisciplinares.</string>
+
+    <string name="lilia">Dirigida por la Dra. Lilia Muñoz y se basa en el estudio de la Calidad de Software, Ingeniería de Software, Almacenes de Datos y Robótica Educativa.</string>
+    <string name="vladi">Dirigida por el Dr. Vladimir Villarreal enfocado en los temas de Inteligencia Ambiental, Computación Ubicua, Ambientes Asistenciales, e-Health.</string>
+    <string name="balta">Esta línea de investigación es dirigida por el Licdo Baltazar Aparicio el cual se encarga de dirigir los proyectos que involucran los temas de Realidad Aumentada e Ingeniería de Software.</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

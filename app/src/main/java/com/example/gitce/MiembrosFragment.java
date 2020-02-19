@@ -69,9 +69,9 @@ public class MiembrosFragment extends Fragment {
     private void setUpViewPager(ViewPager viewPager) {
         SectionPageAdapter adapter=new SectionPageAdapter(getChildFragmentManager());
 
-        adapter.addFragment(new AcercadeFragment(),"Acerca de");
-        adapter.addFragment(new GrupoinvestigacionFragment(),"Grupo investigacion");
-        adapter.addFragment(new LineasinvestigacionFragment(),"Lineas investigacion");
+        adapter.addFragment(new AcercadeFragment(),"Acerca de Nosotros");
+        adapter.addFragment(new GrupoinvestigacionFragment(),"Grupo de Investigacion");
+        adapter.addFragment(new LineasinvestigacionFragment(),"Lineas de Investigacion");
 
         viewPager.setAdapter(adapter);
     }

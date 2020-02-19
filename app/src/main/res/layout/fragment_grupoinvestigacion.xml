@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Fragment.GrupoinvestigacionFragment">
 
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="206dp"
@@ -20,9 +19,10 @@
         android:layout_marginEnd="188dp"
         android:layout_marginBottom="501dp"
         android:text="Bienvenidos"
+        android:textStyle="bold"
         android:textSize="30dp" />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="102dp"
@@ -79,7 +79,7 @@
         android:layout_marginBottom="1dp"
         android:src="@drawable/vladi" />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/textView"
         android:layout_width="174dp"
         android:layout_height="78dp"
@@ -94,7 +94,7 @@
         android:layout_marginBottom="295dp"
         android:text="Dra. Lilia Muñoz A. Doctora en Aplicaciones de la Informática  lilia.muñoz@utp.ac.pa" />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/textView2"
         android:layout_width="192dp"
         android:layout_height="88dp"
@@ -109,7 +109,7 @@
         android:gravity="center"
         android:text="Licdo. Baltazar Aparicio, M.Sc. Maestría en Tecnología y Sistema de Información Empresarial  baltazar.aparicio@utp.ac.pa" />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/textView3"
         android:layout_width="207dp"
         android:layout_height="96dp"
@@ -123,4 +123,5 @@
         android:layout_marginBottom="6dp"
         android:gravity="center"
         android:text="Dr. Vladimir Villarreal C. Doctor en Tecnologías Informáticas Avanzadas  vladimir.villarreal@utp.ac.pa" />
+
 </RelativeLayout>
