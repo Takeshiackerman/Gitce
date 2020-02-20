@@ -18,8 +18,6 @@ import com.example.gitce.R;
 
 public class NoticiasFragment extends Fragment {
 
-    private WebView noticias;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_noticias, container, false);
