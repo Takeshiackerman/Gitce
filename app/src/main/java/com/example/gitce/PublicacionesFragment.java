@@ -60,8 +60,8 @@ public class PublicacionesFragment extends Fragment {
 
     private void setUpViewPager(ViewPager vistas) {
         SectionPagerAdapter2 adapter2 = new SectionPagerAdapter2(getChildFragmentManager());
-        adapter2.addFragment(new VladimirFragment(),"Vladimir");
-        adapter2.addFragment(new LiliaFragment(),"Lilia");
+        adapter2.addFragment(new VladimirFragment(),"Vladimir Villareal");
+        adapter2.addFragment(new LiliaFragment(),"Lilia Muñoz");
 
         vistas.setAdapter(adapter2);
     }

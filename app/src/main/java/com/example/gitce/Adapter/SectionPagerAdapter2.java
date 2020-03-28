@@ -1,6 +1,7 @@
 package com.example.gitce.Adapter;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -12,7 +13,7 @@ import java.util.List;
 public class SectionPagerAdapter2 extends FragmentPagerAdapter {
 
     private List<Fragment> fragmentos = new ArrayList<>();
-    private List<String> titulos= new ArrayList<>();
+    private List<String> titles= new ArrayList<>();
 
     public SectionPagerAdapter2(@NonNull FragmentManager fm) {
         super(fm);
@@ -28,12 +29,14 @@ public class SectionPagerAdapter2 extends FragmentPagerAdapter {
         return fragmentos.size();
     }
 
-    public CharSequence getTitulos(int position){
-        return titulos.get(position);
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return titles.get(position);
     }
 
-    public void addFragment(Fragment fragment,String titulo){
+    public void addFragment(Fragment fragment, String title){
         fragmentos.add(fragment);
-        titulos.add(titulo);
+        titles.add(title);
     }
 }
